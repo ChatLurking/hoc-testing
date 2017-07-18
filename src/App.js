@@ -9,7 +9,10 @@ class App extends Component {
     const Test = HOCComp(TestComponent);
     return (
       <div className="App">
-        <Test>
+        <Test
+          cats='are cute'
+          things='yay'
+        >
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>

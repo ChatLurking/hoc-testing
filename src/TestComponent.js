@@ -23,6 +23,8 @@ class TestComponent extends Component {
 
 TestComponent.propTypes = {
   children: PropTypes.array,
+  things: PropTypes.string,
+  cats: PropTypes.string,
 }
 
 export default TestComponent;
